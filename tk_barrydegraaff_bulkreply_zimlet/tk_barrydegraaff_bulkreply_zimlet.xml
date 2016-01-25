@@ -1,0 +1,38 @@
+<!--
+
+Zimbra Bulk Reply Zimlet
+
+Copyright (C) 2016  Barry de Graaff
+
+Bugs and feedback: https://github.com/Zimbra-Community/bulkreply-zimlet/issues
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 2 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see http://www.gnu.org/licenses/.
+
+-->
+<zimlet name="tk_barrydegraaff_bulkreply_zimlet"
+        version="0.0.1"
+        target="main compose-window view-window"
+        label="Bulk Reply"
+        description="Drop messages to bulk reply">
+    <include>tk_barrydegraaff_bulkreply_zimlet.js</include>
+    <includeCSS>tk_barrydegraaff_bulkreply_zimlet.css</includeCSS>
+    <zimletPanelItem label="Bulk Reply" icon="bulkreply-panelIcon">
+      <dragSource type="ZmConv" />
+		<dragSource type="ZmMailMsg" />
+      <contextMenu>
+         <menuItem icon="bulkreply-help" label="Help" id="help" />
+      </contextMenu>      
+   </zimletPanelItem>
+   <handlerObject>tk_barrydegraaff_bulkreply_zimlet_HandlerObject</handlerObject>
+</zimlet>
