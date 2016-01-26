@@ -1,9 +1,14 @@
 Zimbra Bulk Reply Zimlet
 ==========
 
-Select email messages and send a bulk replies using bcc
+Bulk Reply allows you to reply to a lot of people without having to hit the reply button repeatedly, this can come in handy if you are organizing events or receive a lot of applications or proposals.
 
-If you find Zimbra ownCloud Zimlet useful and want to support its continued development, you can make donations via:
+##### How to use Zimbra Bulk Reply Zimlet
+
+- Select up to 100 email messages in a folder by scrolling down in your mailbox, do not use CTRL+A and CTRL+SHIFT+A as this will not work.
+- Drag and drop them on to the Bulk Reply menu icon.
+
+If you find Zimbra Bulk Reply Zimlet useful and want to support its continued development, you can make donations via:
 - PayPal: info@barrydegraaff.tk
 - Bank transfer: IBAN NL55ABNA0623226413 ; BIC ABNANL2A
 
