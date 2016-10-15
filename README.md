@@ -30,7 +30,7 @@ The recommended method is to deploy using git. (I no longer support zmzimletctl,
     [root@myzimbra bulkreply-zimlet]# git checkout 0.0.1
     [root@myzimbra bulkreply-zimlet]# chmod +rx install-dev.sh
     [root@myzimbra bulkreply-zimlet]# ./install.sh
-    We are about to install the Zimlet, do you want to deploy it as a developper ? (y/N) y
+    We are about to install the Zimlet, do you want to deploy it as a developer ? y
     [root@myzimbra bulkreply-zimlet]# su zimbra
     [zimbra@myzimbra bulkreply-zimlet] zmprov mc default zimbraPrefZimletTreeOpen TRUE
     [zimbra@myzimbra bulkreply-zimlet] zmcontrol restart
