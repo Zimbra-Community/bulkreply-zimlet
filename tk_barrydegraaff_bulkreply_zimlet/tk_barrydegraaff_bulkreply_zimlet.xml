@@ -2,7 +2,7 @@
 
 Zimbra Bulk Reply Zimlet
 
-Copyright (C) 2016  Barry de Graaff
+Copyright (C) 2016-2018  Barry de Graaff
 
 Bugs and feedback: https://github.com/Zimbra-Community/bulkreply-zimlet/issues
 
@@ -21,7 +21,7 @@ along with this program.  If not, see http://www.gnu.org/licenses/.
 
 -->
 <zimlet name="tk_barrydegraaff_bulkreply_zimlet"
-        version="0.0.1"
+        version="0.0.2"
         target="main compose-window view-window"
         label="Bulk Reply"
         description="Drop messages to bulk reply">
