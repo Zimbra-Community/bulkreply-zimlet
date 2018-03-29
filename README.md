@@ -27,7 +27,7 @@ The recommended method is to deploy using git. (I no longer support zmzimletctl,
     [root@myzimbra ~]# rm bulkreply-zimlet -Rf
     [root@myzimbra ~]# git clone https://github.com/Zimbra-Community/bulkreply-zimlet
     [root@myzimbra ~]# cd bulkreply-zimlet
-    [root@myzimbra bulkreply-zimlet]# git checkout 0.0.1
+    [root@myzimbra bulkreply-zimlet]# git checkout 0.0.2
     [root@myzimbra bulkreply-zimlet]# chmod +rx install-dev.sh
     [root@myzimbra bulkreply-zimlet]# ./install.sh
     We are about to install the Zimlet, do you want to deploy it as a developer ? y
