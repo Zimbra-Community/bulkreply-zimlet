@@ -1,6 +1,6 @@
 /*
 This file is part of the Zimbra Bulk Reply Zimlet project.
-Copyright (C) 2015  Barry de Graaff
+Copyright (C) 2015-2018  Barry de Graaff
 
 Bugs and feedback: https://github.com/Zimbra-Community/bulkreply-zimlet/issues
 
@@ -53,9 +53,10 @@ bulkreplyZimlet.prototype.singleClicked = function() {
  * */
 bulkreplyZimlet.prototype.menuItemSelected =
 function(itemId) {
+   var zimletInstance = appCtxt._zimletMgr.getZimletByName('tk_barrydegraaff_bulkreply_zimlet').handlerObject;
    switch (itemId) { 
    case "help":
-      window.open("/service/zimlet/_dev/tk_barrydegraaff_bulkreply_zimlet/help/index.html");
+      window.open(zimletInstance.getResource("/help/index.html"));
       break;
    }
 };
