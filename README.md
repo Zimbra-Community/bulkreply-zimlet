@@ -12,7 +12,7 @@ If you find Zimbra Bulk Reply Zimlet useful and want to support its continued de
 - PayPal: info@barrydegraaff.tk
 - Bank transfer: IBAN NL55ABNA0623226413 ; BIC ABNANL2A
 
-This Zimlet is designed for Zimbra version 8.6.
+This Zimlet is supported on Zimbra version 8.7.11 and 8.8.9 and above.
 
 This Zimlet is not available for use in Zimbra Desktop.
 
