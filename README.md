@@ -8,11 +8,7 @@ Bulk Reply allows you to reply to a lot of people without having to hit the repl
 - Select up to 100 email messages in a folder by scrolling down in your mailbox, do not use CTRL+A and CTRL+SHIFT+A as this will not work.
 - Drag and drop them on to the Bulk Reply menu icon.
 
-If you find Zimbra Bulk Reply Zimlet useful and want to support its continued development, you can make donations via:
-- PayPal: info@barrydegraaff.tk
-- Bank transfer: IBAN NL55ABNA0623226413 ; BIC ABNANL2A
-
-This Zimlet is supported on Zimbra version 8.7.11 and 8.8.9 and above.
+This Zimlet is supported on Zimbra version 8.8.15 and 9.0.
 
 This Zimlet is not available for use in Zimbra Desktop.
 
